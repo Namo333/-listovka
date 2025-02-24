@@ -1,0 +1,63 @@
+#backend-lkp
+backend-lkp/venv
+
+
+
+#frontend-lkp
+# dependencies
+frontend-lkp/node_modules
+frontend-lkp/.pnp
+frontend-lkp/.pnp.*
+frontend-lkp/.yarn/*
+frontend-lkp/!.yarn/patches
+frontend-lkp/!.yarn/plugins
+frontend-lkp/!.yarn/releases
+frontend-lkp/!.yarn/versions
+# testing
+frontend-lkp//coverage
+# next.js
+frontend-lkp/.next/
+frontend-lkp/out/
+# production
+frontend-lkp/build
+# misc
+frontend-lkp/.DS_Store
+frontend-lkp/*.pem
+# debug
+frontend-lkp/npm-debug.log*
+frontend-lkp/yarn-debug.log*
+frontend-lkp/yarn-error.log*
+frontend-lkp/.pnpm-debug.log*
+# env files (can opt-in for committing if needed)
+frontend-lkp/.env*
+# vercel
+frontend-lkp/.vercel
+# typescript
+frontend-lkp/*.tsbuildinfo
+frontend-lkp/next-env.d.ts
+
+
+#frontend-lending
+# Logs
+frontend-lending/logs
+frontend-lending/*.log
+frontend-lending/npm-debug.log*
+frontend-lending/yarn-debug.log*
+frontend-lending/yarn-error.log*
+frontend-lending/pnpm-debug.log*
+frontend-lending/lerna-debug.log*
+frontend-lending/node_modules
+frontend-lending/dist
+frontend-lending/dist-ssr
+frontend-lending/*.local
+# Editor directories and files
+frontend-lending/.vscode/*
+frontend-lending/!.vscode/extensions.json
+frontend-lending/.idea
+frontend-lending/.DS_Store
+frontend-lending/*.suo
+frontend-lending/*.ntvs*
+frontend-lending/*.njsproj
+frontend-lending/*.sln
+frontend-lending/*.sw?
+
